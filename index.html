@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointer events</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="assets/js.js" defer></script>
+</head>
+<body>
+    <h1>Pointer events</h1>
+    <h2>En kort gennemgang</h2>
+    <p>Pointer events er forskellige måder man kan behandle input på, i form af mus, touch og pen.</p>
+    <p>De forskellige pointer events er som følgende:</p>
+    <ul>
+        <li>pointerdown</li>
+        <li>pointerup</li>
+        <li>pointermove</li>
+        <li>pointerover</li>
+        <li>pointerout</li>
+        <li>pointerenter</li>
+        <li>pointerleave</li>
+        <li>pointercancel</li>
+        <li>gotpointercapture</li>
+        <li>lostpointercapture</li>
+    </ul>
+    <p>De forskellige events reagerer på hver deres input. F.eks. så reagerer <code>pointerdown</code> når musen bliver trykket, og når man trykker med sin finger på touch-devices</p>
+    <p id="p-down">Tryk på mig!</p>
+    <p><code>pointerup</code> gør det modsatte. Den reagerer når musen/fingeren bliver løftet.</p>
+    <p id="p-up">Tryk på mig!</p>
+</body>
+</html>
